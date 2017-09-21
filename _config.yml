@@ -23,8 +23,6 @@ github_username:  ugurozgenn
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-hacker 
-future: true
 plugins:
   - jekyll-feed
 
@@ -39,3 +37,5 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+theme: jekyll-theme-hacker
+future: true
