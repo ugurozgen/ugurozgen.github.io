@@ -43,7 +43,7 @@ func araciHizlandir(arac Arac) {
 
 // çıktı: hizlandi
 {% endhighlight %}
-[go playground'da git](https://play.golang.org/p/pDA7ruoefk)
+[go playground'a git](https://play.golang.org/p/pDA7ruoefk)
 
 Yukarıdaki örneğe bakacak olursak, `araciHizlandir` fonksiyonu `Arac` type'ından bir parametre bekliyordu fakat biz ona `Motosiklet` type'ından bir parametre geçtik ve sorunsuz çalıştı. Bu demek oluyor ki; aslında `Motosiklet` type'ı da bir `Arac`tır ve biz bunu kodta hiç belirtmedik.
 
