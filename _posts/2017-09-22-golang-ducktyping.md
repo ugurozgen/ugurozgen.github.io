@@ -12,6 +12,8 @@ Ducktyping dinamik dillerde kullanılan bir terimdir. Amaç; herhangi bir objede
 
 ifadesinden gelmektedir.
 
+Teknik olarak Golang'de bu işlem derleme zamanında olduğu için `structural typing` olarak geçer.
+
 Bu sayede bir interface'i deklaratif olarak implement etmek zorunda kalmazsınız. 
 
 {% highlight golang %}
@@ -46,7 +48,3 @@ func araciHizlandir(arac Arac) {
 [go playground'a git](https://play.golang.org/p/pDA7ruoefk)
 
 Yukarıdaki örneğe bakacak olursak, `araciHizlandir` fonksiyonu `Arac` type'ından bir parametre bekliyordu fakat biz ona `Motosiklet` type'ından bir parametre geçtik ve sorunsuz çalıştı. Bu demek oluyor ki; aslında `Motosiklet` type'ı da bir `Arac`tır ve biz bunu kodta hiç belirtmedik.
-
-Peki bunu Golang nasıl ve ne zaman anladı ve bunun faydası nedir?
-
-Golang bunu çalışma zamanında algılayıp dinamik olarak bağladı. Bu sayede static dillerin derleme zamanında yaptığı deklare edilmiş type bağlamarını golang çalışma zamanında yapıp derleme süresini düşürdü. 
