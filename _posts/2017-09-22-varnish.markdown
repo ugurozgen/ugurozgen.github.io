@@ -2,6 +2,7 @@
 layout: post
 title: Varnish Cache
 date: 2017-09-22
+published: false
 categories: development varnish
 ---
 Varish aslında bir HTTP Proxy Cache ayrıca kendisini HTTP veya Web hızlandırıcı olarak tanımlıyor.
