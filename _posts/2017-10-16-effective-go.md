@@ -9,19 +9,18 @@ Golang'i anlamak ve iyi bir Go kodu yazmak adına, Go'nun özelliklerini, deyiml
 önemlidir. Bu sayede diğer geliştiricilere temiz ve kolay anlaşılır bir program bırakmış oluruz.
 
 ## Format
-`go fmt` tool'u herşeyi halleder rahatınıza bakın. "Hizalamayı" olayı tablarla halledilir ve bunu zaten `go fmt`
-halleder. `Satır uzunluğu` yoktur. Go'da daha az `parantezler` vardır.
+`go fmt` tool'u herşeyi halleder rahatınıza bakın. `Indentation` olayı tablarla halledilir ve bunu zaten `go fmt`
+halleder. `line length` yoktur. Go'da daha az `parentheses` vardır.
 
 ## Yorum
-Golang `blok yorum(/**/)`ları ve `satır yorum(//)`larını destekler. Blok yorumları daha çok paketleri`(package)`
-tanımlamak için yazılır.
+Golang `block comment (/**/)` ve `line comment (//)'i` destekler. Blok yorumları daha çok `package` tanımlamak için yazılır.
 
 `godoc` tool'u kaynak kodlari döküman olarak sunmaya yarar. Top-level tanımlamalardan önceki
 yorumlar, ordaki maddeyi açıklamak için godoc tool'u tarafından kullanılır.
 
-Her paketin `paket(*package*) yorumu` olmalı. Paketin altında birden fazla dosya olsa bile tek bir dosyaya yazılmalı ve
-o paket hakkında giriş niteliğinde paketi bir bütün olarak tanıtmalı. Bu yorum *godoc* sayfasında ilk olarak gözükecek
-ve takip eden ayrıntılı dökümanı oluşturacaktır.
+Her paketin `package comment'i` olmalı. Paketin altında birden fazla dosya olsa bile tek bir dosyaya yazılmalı
+ve o paket hakkında giriş niteliğinde paketi bir bütün olarak tanıtmalı. Bu yorum *godoc* sayfasında ilk olarak
+gözükecek ve takip eden ayrıntılı dökümanı oluşturacaktır.
 
 Yorumlar düz metindir. *godoc* herhangi bir düzeltme yapmaz o yüzden cümle yapılarına, doğru yazım kurallarına,
 noktalama işaretlerine ve cümle uzunluklarına dikkat edilmeli.
