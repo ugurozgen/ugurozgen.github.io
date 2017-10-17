@@ -8,11 +8,11 @@ published: true
 Golang'i anlamak ve iyi bir Go kodu yazmak adına, Go'nun özelliklerini, deyimlerini, gelenek ve göreneklerini bilmek
 önemlidir. Bu sayede diğer geliştiricilere temiz ve kolay anlaşılır bir program bırakmış oluruz.
 
-##Format
+## Format
 `go fmt` tool'u herşeyi halleder rahatınıza bakın. "Hizalamayı" olayı tablarla halledilir ve bunu zaten `go fmt`
 halleder. `Satır uzunluğu` yoktur. Go'da daha az `parantezler` vardır.
 
-##Yorum
+## Yorum
 Golang `blok yorum(/**/)`ları ve `satır yorum(//)`larını destekler. Blok yorumları daha çok paketleri`(package)`
 tanımlamak için yazılır.
 
